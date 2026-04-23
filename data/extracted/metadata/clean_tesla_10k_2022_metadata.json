@@ -1,0 +1,11 @@
+{
+    "cleaned_text_file": "clean_tesla_10k_2022.txt",
+    "original_pdf_guess": "tesla_10k_2022.pdf",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022",
+    "metadata_source": "filename",
+    "character_count": 648998,
+    "word_count": 98386,
+    "source_path": "data\\processed\\cleaned_text\\clean_tesla_10k_2022.txt"
+}

@@ -37,13 +37,14 @@ def save_text_file(output_path: Path, text: str) -> None:
         file.write(text)
 
 
-def process_all_pdfs(input_dir: str, output_dir: str) -> None:
+def process_all_pdfs(input_dir: str, output_dir: str, overwrite: bool = False) -> None:
     """
     Find all PDFs inside the input directory and extract their text.
 
     Args:
         input_dir (str): Folder containing raw PDF files.
         output_dir (str): Folder where extracted .txt files will be saved.
+        overwrite (bool): Whether to overwrite existing output files.
     """
     input_path = Path(input_dir)
     output_path = Path(output_dir)
@@ -57,14 +58,17 @@ def process_all_pdfs(input_dir: str, output_dir: str) -> None:
         return
 
     for pdf_file in pdf_files:
+        output_file = output_path / f"{pdf_file.stem}.txt"
+
+        if output_file.exists() and not overwrite:
+            print(f"Skipping existing file: {output_file}")
+            continue
+
         print(f"Processing: {pdf_file}")
 
         try:
             extracted_text = extract_text_from_pdf(pdf_file)
-
-            output_file = output_path / f"{pdf_file.stem}.txt"
             save_text_file(output_file, extracted_text)
-
             print(f"Saved: {output_file}")
 
         except Exception as error:
@@ -74,5 +78,6 @@ def process_all_pdfs(input_dir: str, output_dir: str) -> None:
 if __name__ == "__main__":
     process_all_pdfs(
         input_dir="data/raw_pdfs",
-        output_dir="data/extracted/text"
+        output_dir="data/extracted/text",
+        overwrite=False
     )
