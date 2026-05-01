@@ -1,0 +1,1722 @@
+[
+    {
+        "start_node_id": "company_tesla",
+        "end_node_id": "filing_tesla_10K_2022",
+        "relationship_type": "FILED",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0000",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0001",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0002",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0003",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0004",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0005",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0006",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0007",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0008",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0009",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0010",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0011",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0012",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0013",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0014",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0015",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0016",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0017",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0018",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0019",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0020",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0021",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0022",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0023",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0024",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0025",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0026",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0027",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0028",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0029",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0030",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0031",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0032",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0033",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0034",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0035",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0036",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0037",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0038",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0039",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0040",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0041",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0042",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0043",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0044",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0045",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0046",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0047",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0048",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0049",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0050",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0051",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0052",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0053",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0054",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0055",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0056",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0057",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0058",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0059",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0060",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0061",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0062",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0063",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0064",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0065",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0066",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0067",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0068",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0069",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0070",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0071",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0072",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0073",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0074",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0075",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0076",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0077",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0078",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0079",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0080",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0081",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0082",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0083",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0084",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0085",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0086",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0087",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0088",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0089",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0090",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0091",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0092",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0093",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0094",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0095",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0096",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0097",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0098",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0099",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0100",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0101",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0102",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0103",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0104",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0105",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0106",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0107",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0108",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0109",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0110",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0111",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0112",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0113",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0114",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0115",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0116",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0117",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0118",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0119",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0120",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0121",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "filing_tesla_10K_2022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0122",
+        "relationship_type": "HAS_CHUNK",
+        "properties": {}
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0000",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0001",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 0
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0001",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0002",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 1
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0002",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0003",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 2
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0003",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0004",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 3
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0004",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0005",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 4
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0005",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0006",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 5
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0006",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0007",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 6
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0007",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0008",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 7
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0008",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0009",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 8
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0009",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0010",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 9
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0010",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0011",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 10
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0011",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0012",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 11
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0012",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0013",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 12
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0013",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0014",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 13
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0014",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0015",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 14
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0015",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0016",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 15
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0016",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0017",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 16
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0017",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0018",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 17
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0018",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0019",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 18
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0019",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0020",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 19
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0020",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0021",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 20
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0021",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0022",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 21
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0022",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0023",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 22
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0023",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0024",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 23
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0024",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0025",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 24
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0025",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0026",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 25
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0026",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0027",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 26
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0027",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0028",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 27
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0028",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0029",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 28
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0029",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0030",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 29
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0030",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0031",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 30
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0031",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0032",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 31
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0032",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0033",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 32
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0033",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0034",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 33
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0034",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0035",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 34
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0035",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0036",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 35
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0036",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0037",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 36
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0037",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0038",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 37
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0038",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0039",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 38
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0039",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0040",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 39
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0040",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0041",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 40
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0041",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0042",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 41
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0042",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0043",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 42
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0043",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0044",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 43
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0044",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0045",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 44
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0045",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0046",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 45
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0046",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0047",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 46
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0047",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0048",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 47
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0048",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0049",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 48
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0049",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0050",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 49
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0050",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0051",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 50
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0051",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0052",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 51
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0052",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0053",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 52
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0053",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0054",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 53
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0054",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0055",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 54
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0055",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0056",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 55
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0056",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0057",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 56
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0057",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0058",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 57
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0058",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0059",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 58
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0059",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0060",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 59
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0060",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0061",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 60
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0061",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0062",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 61
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0062",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0063",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 62
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0063",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0064",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 63
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0064",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0065",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 64
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0065",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0066",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 65
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0066",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0067",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 66
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0067",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0068",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 67
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0068",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0069",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 68
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0069",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0070",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 69
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0070",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0071",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 70
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0071",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0072",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 71
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0072",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0073",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 72
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0073",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0074",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 73
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0074",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0075",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 74
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0075",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0076",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 75
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0076",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0077",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 76
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0077",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0078",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 77
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0078",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0079",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 78
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0079",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0080",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 79
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0080",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0081",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 80
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0081",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0082",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 81
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0082",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0083",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 82
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0083",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0084",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 83
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0084",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0085",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 84
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0085",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0086",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 85
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0086",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0087",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 86
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0087",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0088",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 87
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0088",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0089",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 88
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0089",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0090",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 89
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0090",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0091",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 90
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0091",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0092",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 91
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0092",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0093",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 92
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0093",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0094",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 93
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0094",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0095",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 94
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0095",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0096",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 95
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0096",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0097",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 96
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0097",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0098",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 97
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0098",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0099",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 98
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0099",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0100",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 99
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0100",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0101",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 100
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0101",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0102",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 101
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0102",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0103",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 102
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0103",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0104",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 103
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0104",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0105",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 104
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0105",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0106",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 105
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0106",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0107",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 106
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0107",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0108",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 107
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0108",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0109",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 108
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0109",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0110",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 109
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0110",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0111",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 110
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0111",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0112",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 111
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0112",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0113",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 112
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0113",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0114",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 113
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0114",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0115",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 114
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0115",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0116",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 115
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0116",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0117",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 116
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0117",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0118",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 117
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0118",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0119",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 118
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0119",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0120",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 119
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0120",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0121",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 120
+        }
+    },
+    {
+        "start_node_id": "chunk_tesla_10k_2022_chunk_0121",
+        "end_node_id": "chunk_tesla_10k_2022_chunk_0122",
+        "relationship_type": "NEXT",
+        "properties": {
+            "sequence_order": 121
+        }
+    }
+]

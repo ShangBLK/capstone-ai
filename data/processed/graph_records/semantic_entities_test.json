@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Gramophone",
+    "label": "Organization",
+    "description": "Acquired by the company to enter artist and brand development and music-related press relations business.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "LiveOne App",
+    "label": "ProductOrService",
+    "description": "A dedicated over-the-top application powered by Slacker for providing music services.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "iHeartMedia",
+    "label": "Organization",
+    "description": "Entered into a multi-year agreement for exclusive global livestreaming rights to events.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "COVID-19 pandemic",
+    "label": "Event",
+    "description": "Temporarily shut down the production of all on-ground, live music festivals and events.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "LiveZone",
+    "label": "ProductOrService",
+    "description": "A traveling studio originating from live music events and festivals, providing music news and commentary.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "PodcastOne",
+    "label": "Organization",
+    "description": "Acquired to enter the podcasting business.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "CPS",
+    "label": "Organization",
+    "description": "Acquired to enter the merchandising business.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "React Presents",
+    "label": "Organization",
+    "description": "Acquired to produce and stream over 200 events annually.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "Digital Live Events",
+    "label": "ProductOrService",
+    "description": "Produced and streamed live music events through broadband transmission over the Internet.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "On-premise Live Events",
+    "label": "ProductOrService",
+    "description": "Physical ticket sales of on-location music events and festivals.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "Digital Live Events",
+    "label": "ProductOrService",
+    "description": "Live music content accessed over the Internet and/or satellite networks, including both advertiser-supported and PPV events.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "On-premise Live Events",
+    "label": "ProductOrService",
+    "description": "Physical ticket sales for on-location music events and festivals at various venues.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "Podcast Services",
+    "label": "ProductOrService",
+    "description": "Podcasts available online and through various platforms, monetized through advertising and premium memberships.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "LaunchPadOne",
+    "label": "BusinessConcept",
+    "description": "A self-publishing podcast platform for independent podcasters.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "CPS",
+    "label": "Organization",
+    "description": "A group of web-oriented businesses specializing in merchandise personalization.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "Live Music Industry",
+    "label": "BusinessSegment",
+    "description": "A large and growing market that creates, manages, and promotes live performances and events.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "Industry Stakeholders",
+    "label": "BusinessConcept",
+    "description": "Collective term for agents, managers, distributors, producers, labels, publishers, advertisers, and social influencers involved in the music industry.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "live music industry",
+    "label": "BusinessSegment",
+    "description": "A large, growing market that creates, manages, and promotes live performances and events.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "digital music streaming industry",
+    "label": "BusinessSegment",
+    "description": "A large and growing market representing almost half of global music revenue.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "podcasting industry",
+    "label": "BusinessSegment",
+    "description": "An industry benefiting from a broad audience and loyal listeners, with growing advertising spend.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "React Presents",
+    "label": "Organization",
+    "description": "An organization acquired by Tesla that promoted, produced, and ran over 200 live events in 2019.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "Spring Awakening",
+    "label": "Event",
+    "description": "A large music festival in Chicago, Illinois, promoted by React Presents.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "Music Lives",
+    "label": "ProductOrService",
+    "description": "Tesla's largest digital music event.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "Music Lives ON",
+    "label": "ProductOrService",
+    "description": "A weekly series of virtual live-streaming performances.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "The Snubbys",
+    "label": "ProductOrService",
+    "description": "An award show celebrating deserving artists who were not nominated for applicable awards.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "name": "The Breakout Awards",
+    "label": "ProductOrService",
+    "description": "An award show celebrating iconic music, celebrities, and pop culture moments.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  }
+]

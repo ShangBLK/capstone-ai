@@ -1,0 +1,222 @@
+[
+  {
+    "source": "Gramophone",
+    "relationship": "ASSOCIATED_WITH",
+    "target": "artist and brand development and music-related press relations business",
+    "evidence": "we entered artist and brand development and music-related press relations business through our acquisition of Gramophone.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "LiveOne App",
+    "relationship": "GENERATES_REVENUE_FROM",
+    "target": "membership-based services and advertising",
+    "evidence": "We generate revenue through the sale of membership-based services and advertising from our music offerings.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "iHeartMedia",
+    "relationship": "ASSOCIATED_WITH",
+    "target": "exclusive global livestreaming rights",
+    "evidence": "we entered into a multi-year agreement with iHeartMedia... giving us exclusive global livestreaming rights to over 20 of their events per year.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "COVID-19 pandemic",
+    "relationship": "AFFECTS",
+    "target": "live music festivals and events production",
+    "evidence": "the current pandemic associated with COVID-19 temporarily shut down the production of all on-ground, live music festivals and events.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "LiveZone",
+    "relationship": "GENERATES_REVENUE_FROM",
+    "target": "music news, commentary, festival updates and artist interviews",
+    "evidence": "LiveZone combines music news, commentary, festival updates and artist interviews.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "PodcastOne",
+    "relationship": "ASSOCIATED_WITH",
+    "target": "podcasting business",
+    "evidence": "we entered the podcasting business with the acquisition of PodcastOne.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "CPS",
+    "relationship": "ASSOCIATED_WITH",
+    "target": "merchandising business",
+    "evidence": "we entered the merchandising business with the acquisition of CPS.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "React Presents",
+    "relationship": "ASSOCIATED_WITH",
+    "target": "producing and streaming over 200 events annually",
+    "evidence": "we acquired React Presents, giving us the capability to produce and stream over 200 events annually.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "Digital Live Events",
+    "relationship": "GENERATES_REVENUE_FROM",
+    "target": "third party advertising and sponsorship",
+    "evidence": "We monetize these live events through third party advertising and sponsorship.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "On-premise Live Events",
+    "relationship": "GENERATES_REVENUE_FROM",
+    "target": "physical ticket sales",
+    "evidence": "These services allow our users to access live music content in person and over the Internet.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0002",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "Digital Live Events",
+    "relationship": "GENERATES_REVENUE_FROM",
+    "target": "advertising and sponsorship",
+    "evidence": "We monetize these live events through third party advertising and sponsorship.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "On-premise Live Events",
+    "relationship": "GENERATES_REVENUE_FROM",
+    "target": "ticket sales",
+    "evidence": "These services allow our users to access live music content in person and over the Internet.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "Podcast Services",
+    "relationship": "GENERATES_REVENUE_FROM",
+    "target": "advertising and premium membership services",
+    "evidence": "We monetize podcasts through (i) paid advertising or (ii) paid premium membership services.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "LaunchPadOne",
+    "relationship": "ASSOCIATED_WITH",
+    "target": "independent podcasters",
+    "evidence": "LaunchPadOne serves as a talent pool for us to find new podcasts and talent.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "CPS",
+    "relationship": "OPERATES_IN",
+    "target": "merchandise personalization industry",
+    "evidence": "CPS develops, manufactures, and distributes personalized products for wholesale and direct-to-consumer distribution.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "Live Music Industry",
+    "relationship": "AFFECTS",
+    "target": "Industry Stakeholders",
+    "evidence": "We both capitalize on these trends and provide additional earnings opportunities to industry stakeholders.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0003",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "live music industry",
+    "relationship": "GENERATES_REVENUE_FROM",
+    "target": "Industry Stakeholders",
+    "evidence": "We both capitalize on these trends and provide additional earnings opportunities to industry stakeholders.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "live music industry",
+    "relationship": "AFFECTS",
+    "target": "merchandise and primary/secondary ticket marketplaces",
+    "evidence": "The growth of the live music industry benefits ancillary verticals, such as merchandise and primary/secondary ticket marketplaces.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "digital music streaming industry",
+    "relationship": "AFFECTS",
+    "target": "paid streaming users",
+    "evidence": "We further expect paid streaming users to surpass 1.2 billion by 2030.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "podcasting industry",
+    "relationship": "AFFECTS",
+    "target": "podcast advertising spend",
+    "evidence": "As podcast listening grows, the addressable market for podcast advertising spend continues to grow.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "React Presents",
+    "relationship": "ASSOCIATED_WITH",
+    "target": "Spring Awakening",
+    "evidence": "We acquired React Presents in February 2020, which promoted, produced and ran over 200 live events in 2019, including its tent pole Spring Awakening.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  },
+  {
+    "source": "Music Lives",
+    "relationship": "GENERATES_REVENUE_FROM",
+    "target": "viewership",
+    "evidence": "During the fiscal year ended March 31, 2022, we live-streamed over 126 events with over 54 million views.",
+    "source_chunk_id": "tesla_10k_2022_chunk_0004",
+    "company_name": "tesla",
+    "filing_type": "10K",
+    "filing_year": "2022"
+  }
+]
