@@ -2,102 +2,205 @@
 Graph Schema for Financial GraphRAG
 
 Purpose:
-Defines node labels and relationship types used for LLM-based
-entity and relationship extraction.
+Defines the official Neo4j ontology used by the project.
 
-Design principles:
-- SQL handles exact numerical facts
-- Graph handles semantic relationships and reasoning
-- LLM extracts entities and relationships from chunks
-
-This schema will guide:
-- LLM extraction prompts
-- Neo4j node/relationship creation
-- GraphRAG retrieval patterns
+Core rule:
+- SQL owns exact numerical truth.
+- Neo4j owns semantic relationships and multi-hop reasoning.
+- FAISS owns raw document context.
+- LLMs may extract semantic relationships, but should not invent financial values.
 """
-# GraphRAG Node Labels for Financial Domain
+
+# =============================================================================
+# NODE LABELS
+# =============================================================================
 
 NODE_LABELS = [
-
-    # Core structure
+    # Core business entities
     "Company",
+    "Year",
+    "Source",
+    "Evidence",
+
+    # Structured financial graph backbone
+    "Metric",
+    "FinancialFact",
+
+    # Semantic business graph
+    "VehicleModel",
+    "Technology",
+    "BusinessSegment",
+    "Geography",
+    "RiskFactor",
+    "Event",
+    "Trend",
+    "Strategy",
+    "Organization",
+    "BusinessConcept",
+
+    # Optional document context
     "Filing",
     "Section",
     "Chunk",
-
-    # Financial + business entities
-    "FinancialMetric",
-    "BusinessSegment",
-    "ProductOrService",
-    "Geography",
-    "Strategy",
-    "RiskFactor",
-    "Event",
-    "TimePeriod",
-
-    # Abstract concepts
-    "BusinessConcept"
-    "Organization",
 ]
 
-# GraphRAG Relationship Types
+
+# =============================================================================
+# RELATIONSHIP TYPES
+# =============================================================================
 
 RELATION_TYPES = [
+    # Structured financial relationships
+    "REPORTED",
+    "MEASURES",
+    "FOR_YEAR",
+    "SUPPORTED_BY",
+    "FROM_SOURCE",
 
-    # Structural (still useful)
+    # Company/business relationships
+    "MANUFACTURES",
+    "USES_TECHNOLOGY",
+    "OPERATES_IN",
+    "HAS_SEGMENT",
+    "FACES_RISK",
+    "EXPERIENCED_EVENT",
+    "HAS_STRATEGY",
+    "COMPETES_WITH",
+    "PARTNERS_WITH",
+
+    # Trend/reasoning relationships
+    "SHOWED_TREND",
+    "AFFECTS",
+    "CAUSES",
+    "IMPACTS",
+    "INCREASES",
+    "DECREASES",
+    "ASSOCIATED_WITH",
+
+    # Optional document relationships
     "FILED",
     "HAS_SECTION",
     "HAS_CHUNK",
     "NEXT",
-
-    # Semantic extraction (core GraphRAG)
     "MENTIONS",
+]
+
+
+# =============================================================================
+# STRUCTURED GRAPH SCHEMA
+# Built from SQLite canonical_financials and financial_evidence
+# =============================================================================
+
+STRUCTURED_GRAPH_SCHEMA = {
+    "nodes": {
+        "Company": {
+            "required": ["name"],
+            "optional": ["ticker", "cik"],
+        },
+        "Metric": {
+            "required": ["name"],
+            "optional": ["unit", "description"],
+        },
+        "FinancialFact": {
+            "required": [
+                "canonical_id",
+                "value",
+                "unit",
+                "filing_year",
+                "confidence_score",
+                "conflict_status",
+            ],
+            "optional": [
+                "source_count",
+                "max_percent_difference",
+                "selected_source_type",
+                "selected_evidence_id",
+            ],
+        },
+        "Year": {
+            "required": ["year"],
+            "optional": [],
+        },
+        "Evidence": {
+            "required": ["evidence_id"],
+            "optional": [
+                "source_type",
+                "source_name",
+                "publication_date",
+                "confidence_score",
+            ],
+        },
+        "Source": {
+            "required": ["name"],
+            "optional": ["source_type", "source_url"],
+        },
+    },
+    "relationships": [
+        ("Company", "REPORTED", "FinancialFact"),
+        ("FinancialFact", "MEASURES", "Metric"),
+        ("FinancialFact", "FOR_YEAR", "Year"),
+        ("FinancialFact", "SUPPORTED_BY", "Evidence"),
+        ("Evidence", "FROM_SOURCE", "Source"),
+    ],
+}
+
+
+# =============================================================================
+# LLM SEMANTIC EXTRACTION SCHEMA
+# Used only for semantic relationships, not exact financial values
+# =============================================================================
+
+LLM_ENTITY_LABELS = [
+    "Company",
+    "VehicleModel",
+    "Technology",
+    "BusinessSegment",
+    "Geography",
+    "RiskFactor",
+    "Event",
+    "Trend",
+    "Strategy",
+    "Organization",
+    "BusinessConcept",
+]
+
+LLM_RELATION_TYPES = [
+    "MANUFACTURES",
+    "USES_TECHNOLOGY",
+    "OPERATES_IN",
+    "HAS_SEGMENT",
+    "FACES_RISK",
+    "EXPERIENCED_EVENT",
+    "HAS_STRATEGY",
+    "COMPETES_WITH",
+    "PARTNERS_WITH",
+    "SHOWED_TREND",
     "AFFECTS",
     "CAUSES",
-    "ASSOCIATED_WITH",
-    "PART_OF",
-    "OPERATES_IN",
-    "GENERATES_REVENUE_FROM",
-    "FACES_RISK",
     "IMPACTS",
     "INCREASES",
     "DECREASES",
-    "COMPARED_TO",
-    "OCCURRED_IN",
-
-    # Evidence linkage
-    "SUPPORTED_BY_CHUNK"
+    "ASSOCIATED_WITH",
 ]
 
-# Schema guidance for LLM extraction
-
-EXTRACTION_SCHEMA = {
-    "entities": [
-        "FinancialMetric",
-        "BusinessSegment",
-        "ProductOrService",
-        "Geography",
-        "Strategy",
-        "RiskFactor",
-        "Event",
-        "TimePeriod",
-        "Organization",
-        "BusinessConcept"
+LLM_EXTRACTION_SCHEMA = {
+    "allowed_entity_labels": LLM_ENTITY_LABELS,
+    "allowed_relationship_types": LLM_RELATION_TYPES,
+    "rules": [
+        "Do not extract exact financial metric values.",
+        "Do not create relationships from SEC boilerplate.",
+        "Only extract relationships clearly supported by the text.",
+        "Every extracted relationship must include supporting text.",
+        "Prefer business-relevant relationships over generic mentions.",
     ],
-    "relationships": [
-        "AFFECTS",
-        "CAUSES",
-        "ASSOCIATED_WITH",
-        "OPERATES_IN",
-        "GENERATES_REVENUE_FROM",
-        "FACES_RISK",
-        "IMPACTS",
-        "INCREASES",
-        "DECREASES",
-    ]
 }
-# Keywords used to select business-relevant chunks for test extraction.
-# These help avoid SEC cover pages, filing checkboxes, and legal boilerplate.
+
+
+# =============================================================================
+# CHUNK FILTERING KEYWORDS
+# Used to select candidate chunks for semantic extraction
+# =============================================================================
+
 RELEVANT_KEYWORDS = [
     "revenue",
     "automotive",
@@ -117,5 +220,21 @@ RELEVANT_KEYWORDS = [
     "risk",
     "inflation",
     "interest rates",
-    "cost of revenues"
+    "cost of revenues",
+    "battery",
+    "electric vehicle",
+    "charging",
+    "autonomous",
+    "software",
+    "regulatory",
+    "pricing",
+    "margin",
 ]
+
+
+# =============================================================================
+# BACKWARD-COMPATIBILITY ALIASES
+# Keep these so older scripts do not immediately break.
+# =============================================================================
+
+EXTRACTION_SCHEMA = LLM_EXTRACTION_SCHEMA

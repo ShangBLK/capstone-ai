@@ -1,0 +1,92 @@
+{
+  "company": {
+    "name": "tesla",
+    "ticker": "TSLA"
+  },
+  "vehicle_models": [
+    {
+      "name": "Model S",
+      "segment": "Premium Sedan",
+      "status": "active",
+      "description": "Tesla premium electric sedan."
+    },
+    {
+      "name": "Model 3",
+      "segment": "Mass-Market Sedan",
+      "status": "active",
+      "description": "Tesla mass-market electric sedan."
+    },
+    {
+      "name": "Model X",
+      "segment": "Premium SUV",
+      "status": "active",
+      "description": "Tesla premium electric SUV."
+    },
+    {
+      "name": "Model Y",
+      "segment": "Mass-Market SUV",
+      "status": "active",
+      "description": "Tesla mass-market electric SUV and major volume vehicle."
+    },
+    {
+      "name": "Cybertruck",
+      "segment": "Electric Pickup",
+      "status": "active",
+      "description": "Tesla electric pickup truck."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Battery Technology",
+      "description": "Core EV battery technology affecting range, cost, and performance."
+    },
+    {
+      "name": "Supercharger Network",
+      "description": "Tesla charging infrastructure supporting EV adoption."
+    },
+    {
+      "name": "Full Self-Driving",
+      "description": "Tesla driver-assistance and autonomy software platform."
+    }
+  ],
+  "risk_factors": [
+    {
+      "name": "Supply Chain Constraints",
+      "description": "Constraints that may affect production, deliveries, costs, and revenue."
+    },
+    {
+      "name": "Price Cuts",
+      "description": "Vehicle price reductions that may increase demand but pressure margins."
+    },
+    {
+      "name": "EV Competition",
+      "description": "Increasing competition from legacy automakers and EV manufacturers."
+    }
+  ],
+  "business_segments": [
+    {
+      "name": "Automotive",
+      "description": "Tesla vehicle sales and related automotive revenue."
+    },
+    {
+      "name": "Energy Generation and Storage",
+      "description": "Tesla energy products and storage systems."
+    },
+    {
+      "name": "Services and Other",
+      "description": "Tesla service, used vehicles, insurance, and other business lines."
+    }
+  ],
+  "events": [
+    {
+      "name": "Cybertruck Launch",
+      "year": 2023,
+      "description": "Tesla began Cybertruck deliveries in 2023."
+    },
+    {
+      "name": "Vehicle Price Reductions",
+      "year": 2023,
+      "description": "Tesla reduced vehicle prices to support demand."
+    }
+  ]
+}

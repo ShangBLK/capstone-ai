@@ -9,7 +9,14 @@ from dotenv import load_dotenv
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-VECTOR_RECORDS_DIR = PROJECT_ROOT / "data" / "processed" / "vector_records"
+EVIDENCE_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "normalized"
+    / "evidence_objects"
+    / "vector_chunk_evidence.json"
+)
+
 FAISS_OUTPUT_DIR = PROJECT_ROOT / "storage" / "faiss"
 
 INDEX_PATH = FAISS_OUTPUT_DIR / "index.faiss"
@@ -18,27 +25,39 @@ METADATA_PATH = FAISS_OUTPUT_DIR / "metadata.json"
 EMBEDDING_MODEL = "text-embedding-3-small"
 
 
-def load_chunks():
+def load_vector_evidence():
+    if not EVIDENCE_PATH.exists():
+        raise FileNotFoundError(f"Missing vector evidence file: {EVIDENCE_PATH}")
+
+    with open(EVIDENCE_PATH, "r", encoding="utf-8") as f:
+        evidence_objects = json.load(f)
+
     chunks = []
 
-    for json_file in VECTOR_RECORDS_DIR.glob("*.json"):
-        with open(json_file, "r", encoding="utf-8") as f:
-            records = json.load(f)
+    for obj in evidence_objects:
+        text = (obj.get("text_excerpt") or "").strip()
 
-        for record in records:
-            text = record.get("text", "").strip()
+        if not text:
+            continue
 
-            if not text:
-                continue
+        if "vector" not in obj.get("target_layers", []):
+            continue
 
-            chunks.append({
-                "chunk_id": record.get("chunk_id"),
-                "text": text,
-                "company_name": record.get("company_name"),
-                "filing_type": record.get("filing_type"),
-                "filing_year": record.get("filing_year"),
-                "source_file": record.get("source_file"),
-            })
+        metadata = obj.get("metadata", {})
+
+        chunks.append({
+            "evidence_id": obj.get("evidence_id"),
+            "chunk_id": metadata.get("chunk_id", obj.get("evidence_id")),
+            "text": text,
+            "source_type": obj.get("source_type"),
+            "source_name": obj.get("source_name"),
+            "company": obj.get("company"),
+            "year": obj.get("year"),
+            "source_file": metadata.get("source_file"),
+            "filing_type": metadata.get("filing_type"),
+            "filing_year": metadata.get("filing_year"),
+            "chunk_index": metadata.get("chunk_index"),
+        })
 
     return chunks
 
@@ -76,13 +95,13 @@ def main():
 
     FAISS_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    print("Loading vector chunks...")
-    chunks = load_chunks()
+    print("Loading normalized vector evidence...")
+    chunks = load_vector_evidence()
 
     if not chunks:
-        raise ValueError("No chunks found. Check data/processed/vector_records/")
+        raise ValueError("No vector-ready EvidenceObjects found.")
 
-    print(f"Loaded {len(chunks)} chunks")
+    print(f"Loaded {len(chunks)} vector evidence chunks")
 
     client = OpenAI()
 
@@ -97,7 +116,7 @@ def main():
     print("Saving FAISS index...")
     faiss.write_index(index, str(INDEX_PATH))
 
-    print("Saving metadata...")
+    print("Saving FAISS metadata...")
     with open(METADATA_PATH, "w", encoding="utf-8") as f:
         json.dump(chunks, f, indent=2)
 

@@ -1,0 +1,45 @@
+{
+  "companies": [
+    {
+      "company_name": "tesla",
+      "display_name": "Tesla",
+      "ticker": "TSLA",
+      "cik": "0001318605"
+    }
+  ],
+  "target_years": [2021, 2022, 2023, 2024],
+  "sec_companyfacts_metrics": [
+    {
+      "metric_name": "revenue",
+      "xbrl_tag": "Revenues",
+      "unit": "USD"
+    },
+    {
+      "metric_name": "net_income",
+      "xbrl_tag": "NetIncomeLoss",
+      "unit": "USD"
+    },
+    {
+      "metric_name": "gross_profit",
+      "xbrl_tag": "GrossProfit",
+      "unit": "USD"
+    },
+    {
+      "metric_name": "operating_income",
+      "xbrl_tag": "OperatingIncomeLoss",
+      "unit": "USD"
+    },
+    {
+      "metric_name": "cash_and_cash_equivalents",
+      "xbrl_tag": "CashAndCashEquivalentsAtCarryingValue",
+      "unit": "USD"
+    }
+  ],
+  "enabled_sources": {
+    "sec_companyfacts": true,
+    "financial_modeling_prep": true,
+    "alpha_vantage": true,
+    "yahoo_finance": false,
+    "curated_json": true
+  }
+}

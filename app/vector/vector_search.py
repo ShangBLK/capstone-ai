@@ -31,16 +31,16 @@ def load_index_and_metadata():
     return index, metadata
 
 
-def embed_query(client, query):
+def embed_query(client, query: str):
     response = client.embeddings.create(
         model=EMBEDDING_MODEL,
-        input=query
+        input=query,
     )
 
     return np.array([response.data[0].embedding], dtype="float32")
 
 
-def search_vector(query, top_k=5):
+def search_vector(query: str, top_k: int = 5):
     load_dotenv()
 
     client = OpenAI()
@@ -57,22 +57,29 @@ def search_vector(query, top_k=5):
             continue
 
         record = metadata[idx]
+        text = record.get("text", "")
 
         results.append({
             "rank": rank,
             "distance": float(distances[0][rank - 1]),
+            "evidence_id": record.get("evidence_id"),
             "chunk_id": record.get("chunk_id"),
-            "company_name": record.get("company_name"),
+            "source_type": record.get("source_type"),
+            "source_name": record.get("source_name"),
+            "company": record.get("company"),
+            "year": record.get("year"),
+            "source_file": record.get("source_file"),
             "filing_type": record.get("filing_type"),
             "filing_year": record.get("filing_year"),
-            "source_file": record.get("source_file"),
-            "text_preview": record.get("text", "")[:700]
+            "chunk_index": record.get("chunk_index"),
+            "text_preview": text[:700],
+            "text": text,
         })
 
     return results
 
 
-def print_results(query, results):
+def print_results(query: str, results: list[dict]) -> None:
     print("=" * 80)
     print(f"QUERY: {query}")
     print("=" * 80)
@@ -80,10 +87,13 @@ def print_results(query, results):
     for result in results:
         print(f"\nRank: {result['rank']}")
         print(f"Distance: {result['distance']}")
+        print(f"Evidence ID: {result['evidence_id']}")
         print(f"Chunk ID: {result['chunk_id']}")
-        print(f"Company: {result['company_name']}")
+        print(f"Source Type: {result['source_type']}")
+        print(f"Source Name: {result['source_name']}")
+        print(f"Company: {result['company']}")
+        print(f"Year: {result['year']}")
         print(f"Filing Type: {result['filing_type']}")
-        print(f"Filing Year: {result['filing_year']}")
         print(f"Source File: {result['source_file']}")
         print("Text Preview:")
         print(result["text_preview"])
@@ -92,9 +102,9 @@ def print_results(query, results):
 
 if __name__ == "__main__":
     test_queries = [
-        "What risks did Tesla discuss in its filing?",
-        "What does Ford say about revenue?",
-        "What business factors affected Tesla in 2022?"
+        "What risks did the company discuss in its filing?",
+        "What business factors affected the company in 2022?",
+        "What does the filing say about revenue?",
     ]
 
     for query in test_queries:

@@ -1,0 +1,674 @@
+[
+  {
+    "evidence_id": "alpha_vantage_tesla_ebit_2021",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2021-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2021,
+    "metric_name": "ebit",
+    "metric_value": 6687000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "ebit",
+      "fiscal_date_ending": "2021-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_ebitda_2021",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2021-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2021,
+    "metric_name": "ebitda",
+    "metric_value": 9598000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "ebitda",
+      "fiscal_date_ending": "2021-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_gross_profit_2021",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2021-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2021,
+    "metric_name": "gross_profit",
+    "metric_value": 13606000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "grossProfit",
+      "fiscal_date_ending": "2021-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_net_income_2021",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2021-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2021,
+    "metric_name": "net_income",
+    "metric_value": 5644000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "netIncome",
+      "fiscal_date_ending": "2021-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_operating_income_2021",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2021-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2021,
+    "metric_name": "operating_income",
+    "metric_value": 6687000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "operatingIncome",
+      "fiscal_date_ending": "2021-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_revenue_2021",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2021-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2021,
+    "metric_name": "revenue",
+    "metric_value": 53823000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "totalRevenue",
+      "fiscal_date_ending": "2021-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_ebit_2022",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2022-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2022,
+    "metric_name": "ebit",
+    "metric_value": 14290000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "ebit",
+      "fiscal_date_ending": "2022-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_ebitda_2022",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2022-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2022,
+    "metric_name": "ebitda",
+    "metric_value": 17833000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "ebitda",
+      "fiscal_date_ending": "2022-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_gross_profit_2022",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2022-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2022,
+    "metric_name": "gross_profit",
+    "metric_value": 20853000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "grossProfit",
+      "fiscal_date_ending": "2022-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_net_income_2022",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2022-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2022,
+    "metric_name": "net_income",
+    "metric_value": 12587000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "netIncome",
+      "fiscal_date_ending": "2022-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_operating_income_2022",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2022-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2022,
+    "metric_name": "operating_income",
+    "metric_value": 13656000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "operatingIncome",
+      "fiscal_date_ending": "2022-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_revenue_2022",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2022-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2022,
+    "metric_name": "revenue",
+    "metric_value": 81462000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "totalRevenue",
+      "fiscal_date_ending": "2022-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_ebit_2023",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2023-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2023,
+    "metric_name": "ebit",
+    "metric_value": 10129000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "ebit",
+      "fiscal_date_ending": "2023-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_ebitda_2023",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2023-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2023,
+    "metric_name": "ebitda",
+    "metric_value": 14796000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "ebitda",
+      "fiscal_date_ending": "2023-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_gross_profit_2023",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2023-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2023,
+    "metric_name": "gross_profit",
+    "metric_value": 17660000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "grossProfit",
+      "fiscal_date_ending": "2023-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_net_income_2023",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2023-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2023,
+    "metric_name": "net_income",
+    "metric_value": 14974000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "netIncome",
+      "fiscal_date_ending": "2023-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_operating_income_2023",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2023-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2023,
+    "metric_name": "operating_income",
+    "metric_value": 8891000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "operatingIncome",
+      "fiscal_date_ending": "2023-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_revenue_2023",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2023-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2023,
+    "metric_name": "revenue",
+    "metric_value": 96773000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "totalRevenue",
+      "fiscal_date_ending": "2023-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_ebit_2024",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2024-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2024,
+    "metric_name": "ebit",
+    "metric_value": 9340000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "ebit",
+      "fiscal_date_ending": "2024-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_ebitda_2024",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2024-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2024,
+    "metric_name": "ebitda",
+    "metric_value": 14708000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "ebitda",
+      "fiscal_date_ending": "2024-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_gross_profit_2024",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2024-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2024,
+    "metric_name": "gross_profit",
+    "metric_value": 17450000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "grossProfit",
+      "fiscal_date_ending": "2024-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_net_income_2024",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2024-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2024,
+    "metric_name": "net_income",
+    "metric_value": 7130000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "netIncome",
+      "fiscal_date_ending": "2024-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_operating_income_2024",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2024-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2024,
+    "metric_name": "operating_income",
+    "metric_value": 7076000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "operatingIncome",
+      "fiscal_date_ending": "2024-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  },
+  {
+    "evidence_id": "alpha_vantage_tesla_revenue_2024",
+    "source_type": "alpha_vantage",
+    "source_name": "Alpha Vantage Income Statement API",
+    "source_url": "https://www.alphavantage.co/query?function=INCOME_STATEMENT&symbol=TSLA",
+    "publication_date": "2024-12-31",
+    "company": "tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": 2024,
+    "metric_name": "revenue",
+    "metric_value": 97690000000.0,
+    "metric_unit": "USD",
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": null,
+    "confidence_score": 0.9,
+    "target_layers": [
+      "sql"
+    ],
+    "metadata": {
+      "ticker": "TSLA",
+      "reported_currency": "USD",
+      "alpha_vantage_field": "totalRevenue",
+      "fiscal_date_ending": "2024-12-31",
+      "source_function": "INCOME_STATEMENT"
+    }
+  }
+]

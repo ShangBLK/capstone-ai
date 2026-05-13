@@ -1,0 +1,28 @@
+[
+  {
+    "evidence_id": "3d7a5f94-a8ff-4e69-abc0-89bc1e4d6d56",
+    "source_type": "sec_pdf",
+    "source_name": "tesla_10k_2022",
+    "source_url": null,
+    "publication_date": null,
+    "company": "Tesla",
+    "vehicle_model": null,
+    "quarter": null,
+    "year": null,
+    "metric_name": null,
+    "metric_value": null,
+    "metric_unit": null,
+    "event_type": null,
+    "event_description": null,
+    "text_excerpt": "PDF source document: tesla_10k_2022.pdf",
+    "confidence_score": 1.0,
+    "target_layers": [
+      "vector"
+    ],
+    "metadata": {
+      "file_path": "data\\raw_pdfs\\tesla_10k_2022.pdf",
+      "file_name": "tesla_10k_2022.pdf",
+      "file_size_bytes": 4677629
+    }
+  }
+]
